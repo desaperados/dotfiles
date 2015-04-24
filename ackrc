@@ -1,0 +1,9 @@
+--sort-files
+--follow
+--color
+--group
+--ignore-dir=vendor
+--ignore-dir=tmp
+--ignore-dir=log
+--ignore-dir=public
+--ignore-dir=bin
