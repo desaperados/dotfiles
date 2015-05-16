@@ -119,3 +119,6 @@ set rtp+=/usr/local/Cellar/go/1.0.3/misc/vim
 
 " Quit with :Q
 command -nargs=0 Quit :qa!
+
+" Strip trailing whitespace on save
+autocmd BufWritePre * :%s/\s\+$//e
